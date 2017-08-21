@@ -1,0 +1,33 @@
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+      {% seo %}
+
+    <title>TheSaaS - Responsive Bootstrap SaaS, Software & WebApp Template</title>
+
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/thesaas.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+      {% include google-analytics.html %}
+    {% endif %}
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+
+    <!--  Open Graph Tags -->
+    <meta property="og:title" content="TheSaaS">
+    <meta property="og:description" content="A responsive, professional, and multipurpose SaaS, Software, Startup and WebApp landing template powered by Bootstrap 4.">
+    <meta property="og:image" content="http://thetheme.io/thesaas/assets/img/og-img.jpg">
+    <meta property="og:url" content="http://thetheme.io/thesaas/">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
